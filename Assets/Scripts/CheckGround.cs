@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class CheckGround : MonoBehaviour
 {
-    public static bool isGrounded;
+    private bool isGrounded;
 
-   
+    public bool IsGrounded { get => isGrounded; set => isGrounded = value; }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        isGrounded = true;
+        IsGrounded = true;
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        isGrounded = false;
+        IsGrounded = false;
     }
 }
