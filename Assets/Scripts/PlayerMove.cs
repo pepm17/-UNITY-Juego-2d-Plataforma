@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     private readonly float runSpeed = 2;
-    private readonly float jumpSpeed = 3;
+    private readonly float jumpSpeed = 4;
 
     private readonly bool betterJump = true;
     private readonly float fallMultiplier = 0.5f;

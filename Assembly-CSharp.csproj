@@ -64,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CheckGround.cs" />
+    <Compile Include="Assets\Scripts\DamageObject.cs" />
+    <Compile Include="Assets\Scripts\DamageSpikeHead.cs" />
+    <Compile Include="Assets\Scripts\FruiManager.cs" />
     <Compile Include="Assets\Scripts\FruitCollected.cs" />
     <Compile Include="Assets\Scripts\PlayerMove.cs" />
     <Reference Include="UnityEngine">
